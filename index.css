@@ -481,6 +481,7 @@ input[type="checkbox"]:checked:after {
 
 .slides {
     display: flex;
+	gap: 1rem;
 }
 
 .slide {
