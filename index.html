@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Digital Marketing Agency</title>
+    <link rel="stylesheet" href="fylenProject.css">
+    <script src="myassignment.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fb97d0e78d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+    <div class="header">
+        <div class="bg-container pt-5" id="HomeSection">
+
+            <!-- section 1 -->
+            <div class="home-section-bg-container pb-3 pt-4 mt-5">
+                <div class="d-flex flex-row justify-content-center">
+                    <!-- home section text -->
+                    <div class="home-section-text-container mr-3 d-flex flex-column justify-content-center">
+                        <p class="award-winning-text"> AWARD WINNING </p>
+                        <h1 class="digital-marketing-heading"> DIGITAL MARKETING AGENCY </h1>
+                        <p class="home-section-description mt-4"> Morbi sed lacus nec risus finibus feugiat et fermentum
+                            nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus
+                            finibus feugiat et fermentum </p>
+                        <button type="button" id="contactUsBtnEl" class="mt-4 contact-us-btn" data-toggle="modal" data-target="#exampleModal"> CONTACT US </button>
+
+                        <!-- PopUp -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content p-5">
+                                    <div>
+                                        <h5 class="modal-title pop-up-heading" id="exampleModalLabel"> Talk to us</h5>
+                                    </div>
+                                    <div>
+                                        <form id="myForm" method="POST" action="https://getform.io/f/bolgljja" enctype="multipart/form">
+                                            <div class="mt-4">
+                                                <label for="emailEl" class="work-email pl-2 d-none" id="workMail"> Work email </label>
+                                                <input type="email" name="E-Mail" class="form-control border-none" placeholder="Work email*" id="emailEl" onfocus="clearPlaceholder()" onblur="restorePlaceholder()" />
+                                            </div>
+                                            <div class="mt-4 d-flex flex-row">
+                                                <div class="mr-2">
+                                                    <label for="firstNamEl" class="work-email pl-2 d-none" id="firstName"> First name </label>
+                                                    <input type="text" name="First-Name" placeholder="First name*" class="form-control border-none mr-3" id="firstNamEl" onfocus="placeholderNone()" onblur="placeholderView()" />
+                                                </div>
+                                                <div class="ml-2">
+                                                    <label for="lastNameEl" class="work-email pl-2 d-none" id="lastName"> Last name </label>
+                                                    <input type="text" name="Last-Name" placeholder="Last name*" class="form-control border-none" id="lastNameEl" onfocus="nonePlaceholder()" onblur="viewPlaceholder()" />
+                                                </div>
+                                            </div>
+                                            <div class="mt-5 d-flex flex-row">
+                                                <input type="checkbox" value="Disagreed" name="Terms-&-Conditions" class="checkbox-desing" id="checkBoxInput" />
+                                                <input type="hidden" value="Agreed" name="Terms-&-Conditions" class="checkbox-desing" id="checkBoxInputHidden" />
+                                                <span class="custom-checkbox"></span>
+                                                <label for="checkBoxInput" class="checkbox-text-style "> I agree to
+                                                    Fyle's terms and conditions, and provide <br /> consent to send me
+                                                    communication. </label>
+                                            </div>
+                                            <div class="mt-4">
+                                                <button class="form-btn-style" id="contactUsBtn" type="submit"> Contact Us </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- home section image -->
+                    <div>
+                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720853774/banner_shijzr.png" class="home-section-img" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- section 2 -->
+            <div id="WWDSection" class="pt-5 pb-5">
+                <div class="WWD-section-bg-container pt-5 pb-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="WWD-Section-text-container1">
+                            <p class="award-winning-text p-size"> WHAT WE DO </p>
+                            <h1 class="digital-marketing-heading h-size"> SERVICES PROVIDE FOR YOU </h1>
+                        </div>
+                        <div class="WWD-Section-text-container2 d-flex flex-column justify-content-end">
+                            <p class="wwd-description"> Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                                Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus
+                                feugiat et fermentum </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 slider-part">
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="slides">
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854436/1_qaxcs9_zj7ho6.png" alt="Image 1" class="wwdImg">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854610/2_du9r0v_heesat.png" alt="Image 2" class="wwdImg">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854544/3_xobr0b_i1jxex.png" alt="Image 3" class="wwdImg">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854436/1_qaxcs9_zj7ho6.png" alt="Image 1">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854610/2_du9r0v_heesat.png" alt="Image 2">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854544/3_xobr0b_i1jxex.png" alt="Image 3">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854436/1_qaxcs9_zj7ho6.png" alt="Image 1">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854610/2_du9r0v_heesat.png" alt="Image 2">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854544/3_xobr0b_i1jxex.png" alt="Image 3">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854436/1_qaxcs9_zj7ho6.png" alt="Image 1">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854610/2_du9r0v_heesat.png" alt="Image 2">
+                                    </div>
+                                    <div class="slide wwdCard">
+                                        <img src="https://res.cloudinary.com/daaspgfhm/image/upload/v1720854544/3_xobr0b_i1jxex.png" alt="Image 3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dots-container mt-2">
+                                <span class="dot" onclick="currentSlide(0)"></span>
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="WCUSection" class="pt-5">
+                <div class="WCU-section-bg-container pt-5 pb-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <p class="award-winning-text p-size text-center"> WHY CHOOSE US </p>
+                            <h1 class="digital-marketing-heading h-size text-center"> WHY WE ARE BEST </h1>
+                        </div>
+                    </div>
+                    <div class="WCU-section-cards-container mt-4 d-flex flex-row justify-content-center">
+                        <div class="WCU-section-card1 mr-5 pt-3 pl-4 pr-4" id="wcuCard1">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717314317/1_gnmrdx.png" class="card-style" />
+                            <h1 class="card-heading mt-3"> Clarified Vision & Target </h1>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                        <div class="WCU-section-card1 pt-3 pl-4 pr-4 mr-5" id="wcuCard2">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717314237/2_rl1mcz.png" class="card-style" />
+                            <h1 class="card-heading mt-3"> High Performance </h1>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                        <div class="WCU-section-card1 pl-4 pt-3 pr-4 mr-5" id="wcuCard3">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717314237/3_ilcm4z.png" class="card-style" />
+                            <h1 class="card-heading mt-3"> Maintain Security </h1>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                        <div class="WCU-section-card1 pl-4 pr-4 pt-3" id="wcuCard4">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717314237/4_ztct9a.png" class="card-style" />
+                            <h1 class="card-heading mt-3"> Better Strategy & Quality </h1>
+                            <p class="card-description mt-3"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="OPSection" class="pt-5">
+                <div class="OP-section-bg-container pt-5 pb-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <p class="award-winning-text p-size text-center"> OUR PROJECT </p>
+                            <h1 class="digital-marketing-heading h-size text-center"> WHY WE ARE BEST </h1>
+                        </div>
+                    </div>
+                    <div class="OP-cards-img-container d-flex flex-row justify-content-center mt-5">
+                        <div>
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717316959/image_oe28ow.png" class="OP-img-style" id="changableImage" />
+                        </div>
+                        <div class="OP-cards-container ml-4">
+                            <div class="OP-card p-4" id="project1">
+                                <h1 class="OP-card-heading" id="pheading1"> Genderless Kei – Japan’s Hot </h1>
+                                <p class="OP-card-description mt-3" id="pdescriptiion1"> Set to launch on the
+                                    manufacturer’s new A330neo aircraft in 2017, it’s offering lots of </p>
+                            </div>
+                            <div class="OP-card OP-bg-card p-4" id="project2">
+                                <h1 class="OP-card-heading clr" id="pheading2"> Better Strategy & Quality </h1>
+                                <p class="OP-card-description mt-3 clr" id="pdescriptiion2"> Set to launch on the
+                                    manufacturer’s new A330neo aircraft in 2017, it’s offering lots of </p>
+                            </div>
+                            <div class="OP-card p-4" id="project3">
+                                <h1 class="OP-card-heading" id="pheading3"> Genderless Kei – Japan’s Hot </h1>
+                                <p class="OP-card-description mt-3" id="pdescriptiion3"> Set to launch on the
+                                    manufacturer’s new A330neo aircraft in 2017, it’s offering lots of </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="EGSection" class="pt-5">
+                <div class="EG-section-bg-container pt-5 pb-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <p class="award-winning-text p-size text-center"> EXPERTS GROWTHS </p>
+                            <h1 class="digital-marketing-heading ocg-size text-center"> OUR COMPANY GROWTH </h1>
+                        </div>
+                    </div>
+                    <div class="EG-section-cards-container d-flex flex-row justify-content-center mt-4">
+                        <div class="EG-section-card p-3 text-center" id="card1">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717321140/heart_2_hybeeg.png" />
+                            <p class="number-style mt-2"> 199 + </p>
+                            <p class="text-style"> Staticfied Customers </p>
+                        </div>
+                        <div class="EG-section-card p-3 text-center" id="card2">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717321149/clock_3_jdr79q.png" />
+                            <p class="number-style mt-2"> 1591 + </p>
+                            <p class="text-style"> Days Of Operation </p>
+                        </div>
+                        <div class="EG-section-card p-3 text-center" id="card3">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717321149/Path_4402_cb2rmm.png" />
+                            <p class="number-style mt-2"> 283 + </p>
+                            <p class="text-style"> Complete Project </p>
+                        </div>
+                        <div class="EG-section-card p-3 text-center" id="card4">
+                            <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717321140/Path_4406_ekirdo.png" />
+                            <p class="number-style mt-2"> 75 + </p>
+                            <p class="text-style"> Win Awards </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="CFSection" class="pt-5">
+                <div class="CF-section-bg-container pt-5 pb-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <p class="award-winning-text p-size text-center"> CLIENT'S FEEDBACK </p>
+                            <h1 class="digital-marketing-heading ocg-size text-center"> PEOPLE SAY'S ABOUT US ! </h1>
+                            <div class="CF-section-description mt-5">
+                                <p> Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                                    below for those interested. Sections Bonorum et Malorum original. </p>
+                            </div>
+                            <div class="mt-5 pl-3 d-flex flex-row">
+                                <p class="text-style-name"> JANNAT TUMPA </p>
+                                <p class="pl-1 text-style-add"> - COO, AMERIMAR ENTERPRISES, INC. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Footer-section-bg-container d-flex flex-row justify-content-center pt-5 pb-5">
+                <div class="d-flex flex-column justify-content-center">
+                    <img src="https://res.cloudinary.com/detqp9dxl/image/upload/v1717326211/Group_500_yztrwi.png" class="footer-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#cardCarousel").swipe({
+                swipeLeft: function(event, direction, distance, duration, fingerCount) {
+                    $(this).carousel('next');
+                },
+                swipeRight: function(event, direction, distance, duration, fingerCount) {
+                    $(this).carousel('prev');
+                },
+                threshold: 0
+            });
+        });
+    </script>
+
+<script src="index.js"></script>
+</body>
+
+</html>
