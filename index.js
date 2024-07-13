@@ -207,7 +207,7 @@ document.querySelectorAll(".wwdCard").forEach(wwdCard => {
         wwdCard.innerHTML = '';
 
         // Add hover-specific classes
-        wwdCard.classList.add('hover-bg-container', 'd-flex', 'flex-column', 'justify-content-center', 'slide');
+        wwdCard.classList.add('hover-bg-container', 'd-flex', 'flex-column', 'justify-content-center');
 
         // Create and append new elements
         let hoverContainer = document.createElement("div");
